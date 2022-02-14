@@ -11,23 +11,23 @@ highD dataset format is as follows
 
 1. Recording meta infromation (XX_recordingMeta.csv)
 
-|Name|Description	[Unit]|
-|-------|-----------------|
-|id	                               / The id of the recording. Every recording has a unique id.	[-]
-frameRate	                         / The frame rate which was used to record the video.	[hz]
-locationId	                       / The id of the recording location. In total six different locations exist in the dataset.	[-]
-speedLimit                         / The speed limit of the driving lanes. In all recordings, the speed limit is the same for every driving lane.	[m/s] 
-month	                             / The month the recording was done.	[-]
-weekDay                            / The week day the recording was done.	[-]
-startTime	                         / The start time at which the recording was done.	[hh:mm]
-duration	                         / The duration of the recording.	[s]
-totalDrivenDistance	               / The total driven distance of all tracked vehicles.	[m]
-totalDrivenTime	                   / The total driven time of all tracked vehicles.	[s]
-numVehicles	                       / The number of vehicles tracked including cars and trucks.	[-]
-numCars	                           / The number of cars tracked.	[-]
-numTrucks	                         / The number of trucks tracked.	[-]
-upperLaneMarkings	                 / The y positions of the upper lane markings. The positions are separated by a ";".	[m]
-lowerLaneMarkings	                 / The y positions of the lower lane markings. The positions are separated by a ";".	[m]
+|Name|Description|[Unit]|
+|-|-|-|
+|id|The id of the recording. Every recording has a unique id|[-]|
+|frameRate|The frame rate which was used to record the video|[hz]|
+|locationId|The id of the recording location. In total six different locations exist in the dataset|[-]|
+|speedLimit|The speed limit of the driving lanes. In all recordings, the speed limit is the same for every driving lane|[m/s]|
+|month|The month the recording was done|[-]|
+|weekDay|The week day the recording was done|[-]|
+|startTime|The start time at which the recording was done|[hh:mm]|
+|duration|The duration of the recording|[s]|
+|totalDrivenDistance|The total driven distance of all tracked vehicles|[m]|
+|totalDrivenTime|The total driven time of all tracked vehicles|[s]|
+|numVehicles|The number of vehicles tracked including cars and trucks|[-]|
+|numCars|The number of cars tracked|[-]|
+|numTrucks|The number of trucks tracked|[-]
+|upperLaneMarkings|The y positions of the upper lane markings. The positions are separated by a ";"|[m]|
+|lowerLaneMarkings|The y positions of the lower lane markings. The positions are separated by a ";"|[m]|
 
 
 2.  Track Meta Information (XX_tracksMeta.csv)
