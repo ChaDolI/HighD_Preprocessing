@@ -33,6 +33,7 @@ highD dataset format is as follows
 ##### 2. Track Meta Information (XX_tracksMeta.csv)
 
 |Name|Description|[Unit]|
+|-|-|-|
 |id|The id of the track. The ids are assigned in ascending order|[-]|
 |width|The width of the post-processed bounding box of the vehicle. This corresponds to the length of the vehicle|[m]|
 |height|The height of the post-processed bounding box of the vehicle. This corresponds to the width of the vehicle|[m]|
