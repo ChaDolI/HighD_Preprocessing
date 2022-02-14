@@ -9,7 +9,7 @@ Also you can get highD tools at "https://github.com/RobertKrajewski/highD-datase
 
 highD dataset format is as follows
 
-1. Recording meta infromation (XX_recordingMeta.csv)
+##### 1. Recording meta infromation (XX_recordingMeta.csv)
 
 |Name|Description|[Unit]|
 |-|-|-|
@@ -30,25 +30,25 @@ highD dataset format is as follows
 |lowerLaneMarkings|The y positions of the lower lane markings. The positions are separated by a ";"|[m]|
 
 
-2.  Track Meta Information (XX_tracksMeta.csv)
+##### 2. Track Meta Information (XX_tracksMeta.csv)
 
-Name	                             / Description	[Unit]
-id	                               / The id of the track. The ids are assigned in ascending order.	[-]
-width		                           / The width of the post-processed bounding box of the vehicle. This corresponds to the length of the vehicle.	[m]
-height		                         / The height of the post-processed bounding box of the vehicle. This corresponds to the width of the vehicle.	[m]
-initialFrame	                     / 	The initial frame in which the vehicle track starts.	[-]
-finalFrame		                     / The frame in which the track of the vehicle ends.	[-]
-numFrames		                       / The total lifetime of the track as number of frames.	[-]
-class		                           / The vehicle class of the tracked vehicle (Car or Truck).	[-]
-drivingDirection		               / The driving direction of the vehicle. Either 1 for the left direction (upper lanes) or 2 for the right direction (lower lanes).	[-]
-traveledDistance		               / The distance covered by the track.	[m]
-minXVelocity		                   / The minimal velocity in driving direction.	[m/s]
-maxXVelocity		                   / The maximal velocity in driving direction.	[m/s]
-meanXVelocity		                   / The mean velocity in driving direction.	[m/s]
-minDHW		                         / The minimal Distance Headway (DHW). This value is set to -1, if no preceding vehicle exists.	[m]
-minTHW	                           / The minimal Time Headway (THW). This value is set to -1, if no preceding vehicle exists.	[s]
-minTTC		                         / The minimal Time-to-Collision (TTC). This value is set to -1, if no preceding vehicle or valid TTC exists.	[s]
-numLaneChanges	                   / Number of lane changes detected by changing lane id.	[-]
+|Name|Description|[Unit]|
+|id|The id of the track. The ids are assigned in ascending order|[-]|
+|width|The width of the post-processed bounding box of the vehicle. This corresponds to the length of the vehicle|[m]|
+|height|The height of the post-processed bounding box of the vehicle. This corresponds to the width of the vehicle|[m]|
+|initialFrame|The initial frame in which the vehicle track starts|[-]|
+|finalFrame|The frame in which the track of the vehicle ends|[-]|
+|numFrames|The total lifetime of the track as number of frames|[-]|
+|class|The vehicle class of the tracked vehicle (Car or Truck)|[-]|
+|drivingDirection|The driving direction of the vehicle. Either 1 for the left direction (upper lanes) or 2 for the right direction (lower lanes)|[-]|
+|traveledDistance|The distance covered by the track|[m]|
+|minXVelocity|The minimal velocity in driving direction|[m/s]|
+|maxXVelocity|The maximal velocity in driving direction|[m/s]|
+|meanXVelocity| The mean velocity in driving direction|[m/s]|
+|minDHW| The minimal Distance Headway (DHW). This value is set to -1, if no preceding vehicle exists|[m]|
+|minTHW| The minimal Time Headway (THW). This value is set to -1, if no preceding vehicle exists|[s]|
+|minTTC| The minimal Time-to-Collision (TTC). This value is set to -1, if no preceding vehicle or valid TTC exists|[s]|
+|numLaneChanges| Number of lane changes detected by changing lane id|[-]|
 
 3. Tracks (XX_tracks.csv)
 
