@@ -1,7 +1,7 @@
-####highD preprocessing
+# highD preprocessing
 
-##Author  : Cha Jong Hyun, Master`s course in Ajou University Autonomous Control Laboratory
-##Contact : chadoli@ajou.ac.kr
+## Author  : Cha Jong Hyun, Master`s course in Ajou University Autonomous Control Laboratory
+## Contact : chadoli@ajou.ac.kr
 
 highD is a German Drone dataset with trajectory information on German highway.
 You can access the dataset with non-commercial use by sending a request to "https://www.highd-dataset.com/"
