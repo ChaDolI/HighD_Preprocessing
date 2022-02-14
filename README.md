@@ -53,30 +53,31 @@ highD dataset format is as follows("https://www.highd-dataset.com/format")
 
 3. Tracks (XX_tracks.csv)
 
-Name	                             / Description	[Unit]
-frame	                             / The current frame.	[-]
-id	                               / The track's id.	[-]
-x	                                 / The x position of the upper left corner of the vehicle's bounding box.	[m]
-y	                                 / The y position of the upper left corner of the vehicle's bounding box.	[m]
-width	                             / The width of the bounding box of the vehicle.	[m]
-height	                           / The height of the bounding box of the vehicle.	[m]
-xVelocity	                         / The longitudinal velocity in the image coordinate system.	[m/s]
-yVelocity	                         / The lateral velocity in the image coordinate system.	[m/s]
-xAcceleration	                     / The longitudinal acceleration in the image coordinate system.	[m/s]
-yAcceleration	                     / The lateral acceleration in the image coordinate system	[m/s]
-frontSightDistance	               / The distance to the end of the recorded highway section in driving direction from the vehicle's center.	[m]
-backSightDistance	                 / The distance to the end of the recorded highway section in the opposite driving direction from the vehicle's center.	[m]
-dhw	                               / The Distance Headway. This value is set to 0, if no preceding vehicle exists.	[m]
-thw	                               / The Time Headway. This value is set to 0, if no preceding vehicle exists.	[s]
-ttc	                               / The Time-to-Collision. This value is set to 0, if no preceding vehicle or valid TTC exists.	[s]
-precedingXVelocity	               / The longitudinal velocity of the preceding in the image coordinate system. This value is set to 0, if no preceding vehicle exists.	[-]
-precedingId	                       / The id of the preceding vehicle in the same lane. This value is set to 0, if no preceding vehicle exists.	[-]
-followingId	                       / The id of the following vehicle in the same lane. This value is set to 0, if no following vehicle exists.	[-]
-leftPrecedingId	                   / The id of the preceding vehicle on the adjacent lane on the left in the direction of travel. This value is set to 0, if no such a vehicle exists.	[-]
-leftAlongsideId	                   / The id of the adjacent vehicle on the adjacent lane on the left in the direction of travel. In order for a vehicle to be adjacent and not e.g. preceding, the vehicles must overlap in the longitudinal direction. This value is set to 0, if no such a vehicle exists.	[-]
-leftFollowingId	                   / The id of the following vehicle on the adjacent lane on the left in the direction of travel. This value is set to 0, if no such a vehicle exists.	[-]
-rightPrecedingId	                 / The id of the preceding vehicle on the adjacent lane on the right in the direction of travel. This value is set to 0, if no such a vehicle exists.	[-]
-rightAlsongsideId	                 / The id of the adjacent vehicle on the adjacent lane on the right in the direction of travel. In order for a vehicle to be adjacent and not e.g. preceding, the vehicles must overlap in the longitudinal direction. This value is set to 0, if no such a vehicle exists.	[-]
-rightFollowingId	                 / The id of the following vehicle on the adjacent lane on the right in the direction of travel. This value is set to 0, if no such a vehicle exists.	[-]
-laneId	                           / The IDs start at 1 and are assigned in ascending order. Since the Lane ids are derived from the positions of the lane markings, the first and last ids typically do not describe any useable lanes. For details, see the definition of the coordinate system.	[-]
+|Name|Description|[Unit]|
+|-|-|-|
+|frame|The current frame|[-]|
+|id|The track's id|[-]|
+|x|The x position of the upper left corner of the vehicle's bounding box|[m]|
+|y|The y position of the upper left corner of the vehicle's bounding box|[m]|
+|width|The width of the bounding box of the vehicle|[m]|
+|height|The height of the bounding box of the vehicle|[m]|
+|xVelocity|The longitudinal velocity in the image coordinate system|[m/s]|
+|yVelocity|The lateral velocity in the image coordinate system|[m/s]|
+|xAcceleration|The longitudinal acceleration in the image coordinate system|[m/s]|
+|yAcceleration|The lateral acceleration in the image coordinate system|[m/s]|
+|frontSightDistance|The distance to the end of the recorded highway section in driving direction from the vehicle's center|[m]|
+|backSightDistance|The distance to the end of the recorded highway section in the opposite driving direction from the vehicle's center|[m]|
+|dhw|The Distance Headway. This value is set to 0, if no preceding vehicle exists|[m]|
+|thw|The Time Headway. This value is set to 0, if no preceding vehicle exists|[s]|
+|ttc|The Time-to-Collision. This value is set to 0, if no preceding vehicle or valid TTC exists|[s]|
+|precedingXVelocity|The longitudinal velocity of the preceding in the image coordinate system. This value is set to 0, if no preceding vehicle exists|[-]|
+|precedingId|The id of the preceding vehicle in the same lane. This value is set to 0, if no preceding vehicle exists|[-]|
+|followingId|The id of the following vehicle in the same lane. This value is set to 0, if no following vehicle exists|[-]|
+|leftPrecedingId|The id of the preceding vehicle on the adjacent lane on the left in the direction of travel. This value is set to 0, if no such a vehicle exists|[-]|
+|leftAlongsideId|The id of the adjacent vehicle on the adjacent lane on the left in the direction of travel. In order for a vehicle to be adjacent and not e.g. preceding, the vehicles must overlap in the longitudinal direction. This value is set to 0, if no such a vehicle exists|[-]|
+|leftFollowingId|The id of the following vehicle on the adjacent lane on the left in the direction of travel. This value is set to 0, if no such a vehicle exists|[-]|
+|rightPrecedingId|The id of the preceding vehicle on the adjacent lane on the right in the direction of travel. This value is set to 0, if no such a vehicle exists.|[-]|
+|rightAlsongsideId|The id of the adjacent vehicle on the adjacent lane on the right in the direction of travel. In order for a vehicle to be adjacent and not e.g. preceding, the vehicles must overlap in the longitudinal direction. This value is set to 0, if no such a vehicle exists|[-]|
+|rightFollowingId|The id of the following vehicle on the adjacent lane on the right in the direction of travel. This value is set to 0, if no such a vehicle exists|[-]|
+|laneId|The IDs start at 1 and are assigned in ascending order. Since the Lane ids are derived from the positions of the lane markings, the first and last ids typically do not describe any useable lanes. For details, see the definition of the coordinate system|[-]|
 
