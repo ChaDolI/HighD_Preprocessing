@@ -82,7 +82,7 @@ highD dataset format is as follows("https://www.highd-dataset.com/format")
 |laneId|The IDs start at 1 and are assigned in ascending order. Since the Lane ids are derived from the positions of the lane markings, the first and last ids typically do not describe any useable lanes. For details, see the definition of the coordinate system|[-]|
 
 4. Coordinate system  
-- The Coordinate system of highD dataset is global coordinate system based on upper left corner of the image coordinate system
-- ![image](https://user-images.githubusercontent.com/71547238/153812787-10e72b02-3dc4-4aaf-8f49-8f82d1e966cf.png)  
-- (Source : "https://www.highd-dataset.com/format")
+The Coordinate system of highD dataset is global coordinate system based on upper left corner of the image coordinate system
+![image](https://user-images.githubusercontent.com/71547238/153812787-10e72b02-3dc4-4aaf-8f49-8f82d1e966cf.png)  
+(Source : "https://www.highd-dataset.com/format")
 
