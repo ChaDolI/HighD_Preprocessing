@@ -7,7 +7,7 @@ highD is a German Drone dataset with trajectory information on German highway.
 You can access the dataset with non-commercial use by sending a request to "https://www.highd-dataset.com/"  
 Also you can get highD tools at "https://github.com/RobertKrajewski/highD-dataset"  
 
-highD dataset format is as follows  
+highD dataset format is as follows("https://www.highd-dataset.com/format")
 
 ##### 1. Recording meta infromation (XX_recordingMeta.csv)
 
