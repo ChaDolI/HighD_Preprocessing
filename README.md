@@ -11,8 +11,9 @@ highD dataset format is as follows
 
 1. Recording meta infromation (XX_recordingMeta.csv)
 
-Name	                             / Description	[Unit]
-id	                               / The id of the recording. Every recording has a unique id.	[-]
+|Name|Description	[Unit]|
+|-------------------|-----------------|
+|id	                               / The id of the recording. Every recording has a unique id.	[-]
 frameRate	                         / The frame rate which was used to record the video.	[hz]
 locationId	                       / The id of the recording location. In total six different locations exist in the dataset.	[-]
 speedLimit                         / The speed limit of the driving lanes. In all recordings, the speed limit is the same for every driving lane.	[m/s] 
