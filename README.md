@@ -3,6 +3,7 @@
 ## Author  : Cha Jong Hyun, Master`s course in Ajou University Autonomous Control Laboratory
 ## Contact : chadoli@ajou.ac.kr
 
+##### This repository is to add yaw to highD data set and plot the result or make video of the result.  
 highD is a German Drone dataset with trajectory information on German highway.  
 You can access the dataset with non-commercial use by sending a request to "https://www.highd-dataset.com/"  
 Also you can get highD tools at "https://github.com/RobertKrajewski/highD-dataset"  
