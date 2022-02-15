@@ -89,7 +89,7 @@ The Coordinate system of highD dataset is global coordinate system based on uppe
 
 
 ## Adding yaw
-As you can see in the dataformat above,there is no yaw or heading angle data of vehicle.  
-Assuming yaw is equal to the angle of the velocity vector we can calculate the yaw of the vehicle using x and y velocity data.
+As you can see in the dataformat above, there is no yaw or heading angle data of vehicle.  
+Assuming yaw is equal to the angle of the velocity vector, we can calculate the yaw of the vehicle using x and y velocity data.
 ##### yaw = arctan(yvelocity/xvelocity)
 
