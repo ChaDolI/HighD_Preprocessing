@@ -92,15 +92,11 @@ The Coordinate system of highD dataset is global coordinate system based on uppe
 As you can see in the dataformat above, there is no yaw or heading angle data of vehicle.  
 Assuming yaw is equal to the angle of the velocity vector, we can calculate the yaw of the vehicle using x and y velocity data.
 ![image](https://user-images.githubusercontent.com/71547238/154073909-ab3adb1c-cbb5-41a4-b245-3a889be4f92a.png)
-
-
 ##### yaw = arctan(yvelocity/xvelocity)
 
 ## Get center point of vehicle
 x,y position is not the center point of the vehicle in highD data, it`s the top left corner point of the vehicle.  
 You have to add the length, height of the vehicle to the x and y position.  
 ![image](https://user-images.githubusercontent.com/71547238/154074260-134cfe73-b850-40f6-99d0-38c13209c474.png)
-
-
 ##### Center_point_x = x + length/2  
 ##### Center_point_y = y + length/2
