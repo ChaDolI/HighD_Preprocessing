@@ -98,5 +98,5 @@ Assuming yaw is equal to the angle of the velocity vector, we can calculate the 
 x,y position is not the center point of the vehicle in highD data, it`s the top left corner point of the vehicle.  
 You have to add the length, height of the vehicle to the x and y position.  
 ![image](https://user-images.githubusercontent.com/71547238/154074260-134cfe73-b850-40f6-99d0-38c13209c474.png)
-##### Center_point_x = x + length/2  
+##### Center_point_x = x + length/2
 ##### Center_point_y = y + length/2
