@@ -100,3 +100,12 @@ You have to add the length, height of the vehicle to the x and y position.
 ![image](https://user-images.githubusercontent.com/71547238/154074260-134cfe73-b850-40f6-99d0-38c13209c474.png)
 ##### Center_point_x = x + length/2
 ##### Center_point_y = y + height/2
+
+
+## Plot scene
+Using MATLAB i made a simple code to plot the scene with yaw applied.  
+As you can see the red circled data below, the lane changing vehicle is now turned to the direction its going to.  
+![image](https://user-images.githubusercontent.com/71547238/154083434-99b98136-506c-43c1-a901-8025216e211d.png)
+![image](https://user-images.githubusercontent.com/71547238/154083541-53f58c63-db1c-45ce-b90e-662453737e75.png)
+
+
