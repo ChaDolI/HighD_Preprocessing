@@ -104,7 +104,9 @@ You have to add the length, height of the vehicle to the x and y position.
 
 ## Plot scene
 Using MATLAB i made a simple code to plot the scene with yaw applied.  
-As you can see the red circled data below, the lane changing vehicle is now turned to the direction its going to.  
+As you can see in the red circled data below, the lane changing vehicle is now turned to the direction its going to.  
+
+With 01_tracks.csv and 01_tracksMete.csv data and highD_preprocessing_plot.m, draw_rectangle.m in the same folder, run highD_preprocessing_plot.m and you will get the same result.  
 ![image](https://user-images.githubusercontent.com/71547238/154083434-99b98136-506c-43c1-a901-8025216e211d.png)
 ![image](https://user-images.githubusercontent.com/71547238/154083541-53f58c63-db1c-45ce-b90e-662453737e75.png)
 
